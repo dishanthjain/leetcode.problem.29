@@ -1,0 +1,28 @@
+
+LeetCode #29 — Divide Two Integers
+
+Difficulty: Medium
+Language: C++
+
+Problem:
+Given two integers dividend and divisor, divide dividend by divisor without using multiplication (*), division (/), or modulo (%) operators.
+
+Return the quotient after truncating it toward zero.
+
+If the quotient is outside the range of a signed 32-bit integer [-2³¹, 2³¹ - 1], return 2³¹ - 1.
+
+Examples:
+
+Input:  dividend = 10, divisor = 3
+Output: 3
+
+Input:  dividend = 7, divisor = -3
+Output: -2
+
+Constraints:
+
+-2³¹ <= dividend <= 2³¹ - 1
+
+-2³¹ <= divisor <= 2³¹ - 1
+
+divisor != 0
